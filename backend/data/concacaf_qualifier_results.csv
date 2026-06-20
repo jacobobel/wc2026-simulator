@@ -1,0 +1,37 @@
+home_team,away_team,home_score,away_score,match_date,confederation,tournament,tournament_stage,home_team_fifa_ranking,away_team_fifa_ranking
+Panama,Suriname,1,1,2025-09-05,CONCACAF,World Cup Qualifier,Qualifier,34,97
+Panama,Guatemala,1,1,2025-09-08,CONCACAF,World Cup Qualifier,Qualifier,34,92
+Panama,El Salvador,3,0,2025-10-10,CONCACAF,World Cup Qualifier,Qualifier,34,91
+Suriname,Guatemala,1,1,2025-10-10,CONCACAF,World Cup Qualifier,Qualifier,97,92
+Suriname,El Salvador,4,0,2025-11-14,CONCACAF,World Cup Qualifier,Qualifier,97,91
+Guatemala,El Salvador,0,1,2025-11-14,CONCACAF,World Cup Qualifier,Qualifier,92,91
+Suriname,Panama,0,0,2025-09-08,CONCACAF,World Cup Qualifier,Qualifier,97,34
+Guatemala,Panama,2,3,2025-09-05,CONCACAF,World Cup Qualifier,Qualifier,92,34
+El Salvador,Panama,0,1,2025-11-17,CONCACAF,World Cup Qualifier,Qualifier,91,34
+Guatemala,Suriname,3,1,2025-09-08,CONCACAF,World Cup Qualifier,Qualifier,92,97
+El Salvador,Suriname,1,2,2025-10-13,CONCACAF,World Cup Qualifier,Qualifier,91,97
+El Salvador,Guatemala,0,1,2025-10-13,CONCACAF,World Cup Qualifier,Qualifier,91,92
+Curaçao,Jamaica,2,0,2025-09-05,CONCACAF,World Cup Qualifier,Qualifier,82,94
+Curaçao,Trinidad and Tobago,1,1,2025-09-08,CONCACAF,World Cup Qualifier,Qualifier,82,93
+Curaçao,Bermuda,3,2,2025-10-10,CONCACAF,World Cup Qualifier,Qualifier,82,160
+Jamaica,Trinidad and Tobago,2,0,2025-10-10,CONCACAF,World Cup Qualifier,Qualifier,94,93
+Jamaica,Bermuda,4,0,2025-11-14,CONCACAF,World Cup Qualifier,Qualifier,94,160
+Trinidad and Tobago,Bermuda,2,2,2025-11-14,CONCACAF,World Cup Qualifier,Qualifier,93,160
+Jamaica,Curaçao,0,0,2025-09-08,CONCACAF,World Cup Qualifier,Qualifier,94,82
+Trinidad and Tobago,Curaçao,0,0,2025-09-05,CONCACAF,World Cup Qualifier,Qualifier,93,82
+Bermuda,Curaçao,0,7,2025-10-13,CONCACAF,World Cup Qualifier,Qualifier,160,82
+Trinidad and Tobago,Jamaica,1,1,2025-09-08,CONCACAF,World Cup Qualifier,Qualifier,93,94
+Bermuda,Jamaica,0,4,2025-10-13,CONCACAF,World Cup Qualifier,Qualifier,160,94
+Bermuda,Trinidad and Tobago,0,3,2025-11-17,CONCACAF,World Cup Qualifier,Qualifier,160,93
+Haiti,Honduras,0,0,2025-09-05,CONCACAF,World Cup Qualifier,Qualifier,83,71
+Haiti,Costa Rica,1,0,2025-09-08,CONCACAF,World Cup Qualifier,Qualifier,83,70
+Haiti,Nicaragua,2,0,2025-10-10,CONCACAF,World Cup Qualifier,Qualifier,83,95
+Honduras,Costa Rica,0,0,2025-10-10,CONCACAF,World Cup Qualifier,Qualifier,71,70
+Honduras,Nicaragua,2,0,2025-11-14,CONCACAF,World Cup Qualifier,Qualifier,71,95
+Costa Rica,Nicaragua,4,1,2025-11-14,CONCACAF,World Cup Qualifier,Qualifier,70,95
+Honduras,Haiti,3,0,2025-09-08,CONCACAF,World Cup Qualifier,Qualifier,71,83
+Costa Rica,Haiti,3,3,2025-09-05,CONCACAF,World Cup Qualifier,Qualifier,70,83
+Nicaragua,Haiti,0,3,2025-10-13,CONCACAF,World Cup Qualifier,Qualifier,95,83
+Costa Rica,Honduras,0,0,2025-09-08,CONCACAF,World Cup Qualifier,Qualifier,70,71
+Nicaragua,Honduras,2,0,2025-10-13,CONCACAF,World Cup Qualifier,Qualifier,95,71
+Nicaragua,Costa Rica,1,1,2025-11-17,CONCACAF,World Cup Qualifier,Qualifier,95,70

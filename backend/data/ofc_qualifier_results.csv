@@ -1,0 +1,16 @@
+home_team,away_team,home_score,away_score,match_date,confederation,tournament,tournament_stage,home_team_fifa_ranking,away_team_fifa_ranking
+New Caledonia,Papua New Guinea,3,1,2024-10-10,OFC,World Cup Qualifier,Qualifier,163,164
+Solomon Islands,Fiji,0,1,2024-10-10,OFC,World Cup Qualifier,Qualifier,162,165
+Solomon Islands,New Caledonia,2,3,2024-11-14,OFC,World Cup Qualifier,Qualifier,162,163
+Papua New Guinea,Fiji,3,3,2024-11-14,OFC,World Cup Qualifier,Qualifier,164,165
+New Caledonia,Solomon Islands,3,1,2024-11-18,OFC,World Cup Qualifier,Qualifier,163,162
+Fiji,Papua New Guinea,1,2,2024-11-18,OFC,World Cup Qualifier,Qualifier,165,164
+New Zealand,Tahiti,3,0,2024-10-11,OFC,World Cup Qualifier,Qualifier,84,175
+Vanuatu,Samoa,4,1,2024-10-12,OFC,World Cup Qualifier,Qualifier,170,210
+Samoa,Tahiti,0,3,2024-11-15,OFC,World Cup Qualifier,Qualifier,210,175
+New Zealand,Vanuatu,8,1,2024-11-15,OFC,World Cup Qualifier,Qualifier,84,170
+New Zealand,Samoa,0,0,2024-11-18,OFC,World Cup Qualifier,Qualifier,84,210
+Tahiti,Vanuatu,2,0,2024-11-18,OFC,World Cup Qualifier,Qualifier,175,170
+New Zealand,Fiji,7,0,2025-03-21,OFC,World Cup Qualifier,Qualifier,84,165
+New Caledonia,Tahiti,3,0,2025-03-21,OFC,World Cup Qualifier,Qualifier,163,175
+New Caledonia,New Zealand,0,3,2025-03-24,OFC,World Cup Qualifier,Qualifier,163,84

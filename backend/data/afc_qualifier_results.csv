@@ -1,0 +1,91 @@
+home_team,away_team,home_score,away_score,match_date,confederation,tournament,tournament_stage,home_team_fifa_ranking,away_team_fifa_ranking
+Iran,Uzbekistan,2,2,2024-09-05,AFC,World Cup Qualifier,Qualifier,20,45
+Iran,United Arab Emirates,2,0,2024-09-10,AFC,World Cup Qualifier,Qualifier,20,63
+Iran,Qatar,4,1,2024-10-10,AFC,World Cup Qualifier,Qualifier,20,56
+Iran,Kyrgyzstan,1,0,2024-10-15,AFC,World Cup Qualifier,Qualifier,20,99
+Iran,North Korea,3,0,2024-11-15,AFC,World Cup Qualifier,Qualifier,20,110
+Uzbekistan,Iran,0,0,2024-09-10,AFC,World Cup Qualifier,Qualifier,45,20
+United Arab Emirates,Iran,0,1,2024-09-05,AFC,World Cup Qualifier,Qualifier,63,20
+Qatar,Iran,1,0,2024-10-15,AFC,World Cup Qualifier,Qualifier,56,20
+Kyrgyzstan,Iran,2,3,2024-10-10,AFC,World Cup Qualifier,Qualifier,99,20
+North Korea,Iran,2,3,2024-11-19,AFC,World Cup Qualifier,Qualifier,110,20
+Uzbekistan,United Arab Emirates,1,0,2024-09-05,AFC,World Cup Qualifier,Qualifier,45,63
+Uzbekistan,Qatar,3,0,2025-03-20,AFC,World Cup Qualifier,Qualifier,45,56
+Uzbekistan,Kyrgyzstan,1,0,2024-10-10,AFC,World Cup Qualifier,Qualifier,45,99
+Uzbekistan,North Korea,1,0,2024-11-15,AFC,World Cup Qualifier,Qualifier,45,110
+United Arab Emirates,Uzbekistan,0,0,2024-09-10,AFC,World Cup Qualifier,Qualifier,63,45
+Qatar,Uzbekistan,3,2,2025-03-25,AFC,World Cup Qualifier,Qualifier,56,45
+Kyrgyzstan,Uzbekistan,2,3,2024-10-15,AFC,World Cup Qualifier,Qualifier,99,45
+North Korea,Uzbekistan,0,1,2024-11-19,AFC,World Cup Qualifier,Qualifier,110,45
+United Arab Emirates,Qatar,1,3,2024-10-10,AFC,World Cup Qualifier,Qualifier,63,56
+United Arab Emirates,Kyrgyzstan,3,0,2025-03-20,AFC,World Cup Qualifier,Qualifier,63,99
+United Arab Emirates,North Korea,1,1,2024-09-05,AFC,World Cup Qualifier,Qualifier,63,110
+Qatar,United Arab Emirates,1,3,2024-10-15,AFC,World Cup Qualifier,Qualifier,56,63
+Kyrgyzstan,United Arab Emirates,1,1,2025-03-25,AFC,World Cup Qualifier,Qualifier,99,63
+North Korea,United Arab Emirates,1,2,2024-09-10,AFC,World Cup Qualifier,Qualifier,110,63
+Qatar,Kyrgyzstan,3,1,2024-09-10,AFC,World Cup Qualifier,Qualifier,56,99
+Qatar,North Korea,5,1,2024-11-19,AFC,World Cup Qualifier,Qualifier,56,110
+Kyrgyzstan,Qatar,3,1,2024-09-05,AFC,World Cup Qualifier,Qualifier,99,56
+North Korea,Qatar,2,2,2025-03-20,AFC,World Cup Qualifier,Qualifier,110,56
+Kyrgyzstan,North Korea,1,0,2024-10-10,AFC,World Cup Qualifier,Qualifier,99,110
+North Korea,Kyrgyzstan,2,2,2024-10-15,AFC,World Cup Qualifier,Qualifier,110,99
+South Korea,Iraq,3,2,2024-09-05,AFC,World Cup Qualifier,Qualifier,25,57
+South Korea,Jordan,0,2,2024-09-10,AFC,World Cup Qualifier,Qualifier,25,63
+South Korea,Oman,1,3,2024-10-10,AFC,World Cup Qualifier,Qualifier,25,88
+South Korea,Palestine,1,1,2024-10-15,AFC,World Cup Qualifier,Qualifier,25,102
+South Korea,Kuwait,4,0,2025-03-20,AFC,World Cup Qualifier,Qualifier,25,137
+Iraq,South Korea,0,2,2024-09-10,AFC,World Cup Qualifier,Qualifier,57,25
+Jordan,South Korea,2,0,2024-09-05,AFC,World Cup Qualifier,Qualifier,63,25
+Oman,South Korea,3,1,2024-10-15,AFC,World Cup Qualifier,Qualifier,88,25
+Palestine,South Korea,1,1,2025-03-25,AFC,World Cup Qualifier,Qualifier,102,25
+Kuwait,South Korea,1,3,2025-03-25,AFC,World Cup Qualifier,Qualifier,137,25
+Jordan,Iraq,0,0,2024-09-10,AFC,World Cup Qualifier,Qualifier,63,57
+Jordan,Oman,4,0,2024-10-10,AFC,World Cup Qualifier,Qualifier,63,88
+Jordan,Palestine,3,1,2024-09-05,AFC,World Cup Qualifier,Qualifier,63,102
+Jordan,Kuwait,1,1,2025-03-20,AFC,World Cup Qualifier,Qualifier,63,137
+Iraq,Jordan,0,1,2024-09-05,AFC,World Cup Qualifier,Qualifier,57,63
+Oman,Jordan,0,3,2024-10-15,AFC,World Cup Qualifier,Qualifier,88,63
+Palestine,Jordan,1,3,2024-10-10,AFC,World Cup Qualifier,Qualifier,102,63
+Kuwait,Jordan,1,1,2025-03-25,AFC,World Cup Qualifier,Qualifier,137,63
+Iraq,Oman,1,0,2024-10-15,AFC,World Cup Qualifier,Qualifier,57,88
+Iraq,Palestine,1,0,2024-10-10,AFC,World Cup Qualifier,Qualifier,57,102
+Iraq,Kuwait,2,2,2025-03-20,AFC,World Cup Qualifier,Qualifier,57,137
+Oman,Iraq,0,1,2024-11-14,AFC,World Cup Qualifier,Qualifier,88,57
+Palestine,Iraq,2,1,2024-09-05,AFC,World Cup Qualifier,Qualifier,102,57
+Kuwait,Iraq,0,0,2024-09-10,AFC,World Cup Qualifier,Qualifier,137,57
+Oman,Palestine,1,1,2024-09-05,AFC,World Cup Qualifier,Qualifier,88,102
+Oman,Kuwait,4,0,2024-09-10,AFC,World Cup Qualifier,Qualifier,88,137
+Palestine,Oman,1,1,2025-03-20,AFC,World Cup Qualifier,Qualifier,102,88
+Kuwait,Oman,0,1,2024-10-10,AFC,World Cup Qualifier,Qualifier,137,88
+Palestine,Kuwait,2,2,2024-10-10,AFC,World Cup Qualifier,Qualifier,102,137
+Kuwait,Palestine,0,2,2024-10-15,AFC,World Cup Qualifier,Qualifier,137,102
+Japan,Australia,1,1,2024-09-05,AFC,World Cup Qualifier,Qualifier,18,28
+Japan,Saudi Arabia,2,0,2024-09-10,AFC,World Cup Qualifier,Qualifier,18,61
+Japan,China,7,0,2024-10-10,AFC,World Cup Qualifier,Qualifier,18,78
+Japan,Indonesia,5,0,2024-10-15,AFC,World Cup Qualifier,Qualifier,18,120
+Japan,Bahrain,2,0,2025-03-20,AFC,World Cup Qualifier,Qualifier,18,89
+Australia,Japan,1,1,2024-09-10,AFC,World Cup Qualifier,Qualifier,28,18
+Saudi Arabia,Japan,0,2,2024-09-05,AFC,World Cup Qualifier,Qualifier,61,18
+China,Japan,1,3,2024-11-19,AFC,World Cup Qualifier,Qualifier,78,18
+Indonesia,Japan,0,6,2025-06-10,AFC,World Cup Qualifier,Qualifier,120,18
+Bahrain,Japan,0,1,2025-03-25,AFC,World Cup Qualifier,Qualifier,89,18
+Australia,Saudi Arabia,3,1,2024-09-05,AFC,World Cup Qualifier,Qualifier,28,61
+Australia,China,3,1,2024-10-10,AFC,World Cup Qualifier,Qualifier,28,78
+Australia,Indonesia,5,1,2025-03-20,AFC,World Cup Qualifier,Qualifier,28,120
+Australia,Bahrain,1,0,2024-11-14,AFC,World Cup Qualifier,Qualifier,28,89
+Saudi Arabia,Australia,0,0,2024-09-10,AFC,World Cup Qualifier,Qualifier,61,28
+China,Australia,0,1,2024-10-15,AFC,World Cup Qualifier,Qualifier,78,28
+Indonesia,Australia,0,0,2024-09-05,AFC,World Cup Qualifier,Qualifier,120,28
+Bahrain,Australia,2,2,2024-11-19,AFC,World Cup Qualifier,Qualifier,89,28
+Saudi Arabia,China,0,0,2024-10-10,AFC,World Cup Qualifier,Qualifier,61,78
+Saudi Arabia,Indonesia,2,0,2024-11-14,AFC,World Cup Qualifier,Qualifier,61,120
+Saudi Arabia,Bahrain,0,0,2024-09-05,AFC,World Cup Qualifier,Qualifier,61,89
+China,Saudi Arabia,1,0,2024-11-14,AFC,World Cup Qualifier,Qualifier,78,61
+Indonesia,Saudi Arabia,2,0,2024-11-19,AFC,World Cup Qualifier,Qualifier,120,61
+Bahrain,Saudi Arabia,0,1,2025-06-10,AFC,World Cup Qualifier,Qualifier,89,61
+China,Indonesia,2,1,2024-09-05,AFC,World Cup Qualifier,Qualifier,78,120
+China,Bahrain,1,0,2025-06-10,AFC,World Cup Qualifier,Qualifier,78,89
+Indonesia,China,2,2,2024-09-10,AFC,World Cup Qualifier,Qualifier,120,78
+Bahrain,China,2,2,2024-10-15,AFC,World Cup Qualifier,Qualifier,89,78
+Indonesia,Bahrain,2,2,2024-09-05,AFC,World Cup Qualifier,Qualifier,120,89
+Bahrain,Indonesia,1,0,2024-10-10,AFC,World Cup Qualifier,Qualifier,89,120

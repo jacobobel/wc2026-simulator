@@ -44,4 +44,4 @@ def load_csv_to_db(filepath):
     print(f"Done — inserted {inserted}, skipped {skipped}")
 
 if __name__ == "__main__":
-    load_csv_to_db("backend/data/uefa_qualifier_results.csv")
+    load_csv_to_db("backend/data/afcon_2025.csv")

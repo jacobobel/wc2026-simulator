@@ -1,0 +1,53 @@
+home_team,away_team,home_score,away_score,match_date,confederation,tournament,tournament_stage,home_team_fifa_ranking,away_team_fifa_ranking
+Morocco,Comoros,2,0,2025-12-21,CAF,AFCON 2025,Group Stage,7,110
+Mali,Zambia,1,1,2025-12-22,CAF,AFCON 2025,Group Stage,52,74
+Zambia,Comoros,0,0,2025-12-26,CAF,AFCON 2025,Group Stage,74,110
+Morocco,Mali,1,1,2025-12-26,CAF,AFCON 2025,Group Stage,7,52
+Zambia,Morocco,0,3,2025-12-29,CAF,AFCON 2025,Group Stage,74,7
+Comoros,Mali,0,0,2025-12-29,CAF,AFCON 2025,Group Stage,110,52
+South Africa,Angola,2,1,2025-12-22,CAF,AFCON 2025,Group Stage,60,104
+Egypt,Zimbabwe,2,1,2025-12-22,CAF,AFCON 2025,Group Stage,31,107
+Angola,Zimbabwe,1,1,2025-12-26,CAF,AFCON 2025,Group Stage,104,107
+Egypt,South Africa,1,0,2025-12-26,CAF,AFCON 2025,Group Stage,31,60
+Angola,Egypt,0,0,2025-12-29,CAF,AFCON 2025,Group Stage,104,31
+Zimbabwe,South Africa,2,3,2025-12-29,CAF,AFCON 2025,Group Stage,107,60
+Nigeria,Tanzania,2,1,2025-12-23,CAF,AFCON 2025,Group Stage,46,76
+Tunisia,Uganda,3,1,2025-12-23,CAF,AFCON 2025,Group Stage,45,75
+Uganda,Tanzania,1,1,2025-12-27,CAF,AFCON 2025,Group Stage,75,76
+Nigeria,Tunisia,3,2,2025-12-27,CAF,AFCON 2025,Group Stage,46,45
+Uganda,Nigeria,1,3,2025-12-30,CAF,AFCON 2025,Group Stage,75,46
+Tanzania,Tunisia,1,1,2025-12-30,CAF,AFCON 2025,Group Stage,76,45
+DR Congo,Benin,1,0,2025-12-23,CAF,AFCON 2025,Group Stage,46,103
+Senegal,Botswana,3,0,2025-12-23,CAF,AFCON 2025,Group Stage,15,150
+Benin,Botswana,1,0,2025-12-27,CAF,AFCON 2025,Group Stage,103,150
+Senegal,DR Congo,1,1,2025-12-27,CAF,AFCON 2025,Group Stage,15,46
+Benin,Senegal,0,3,2025-12-30,CAF,AFCON 2025,Group Stage,103,15
+Botswana,DR Congo,0,3,2025-12-30,CAF,AFCON 2025,Group Stage,150,46
+Burkina Faso,Equatorial Guinea,2,1,2025-12-24,CAF,AFCON 2025,Group Stage,62,108
+Algeria,Sudan,3,0,2025-12-24,CAF,AFCON 2025,Group Stage,29,138
+Equatorial Guinea,Sudan,0,1,2025-12-28,CAF,AFCON 2025,Group Stage,108,138
+Algeria,Burkina Faso,1,0,2025-12-28,CAF,AFCON 2025,Group Stage,29,62
+Equatorial Guinea,Algeria,1,3,2025-12-31,CAF,AFCON 2025,Group Stage,108,29
+Sudan,Burkina Faso,0,2,2025-12-31,CAF,AFCON 2025,Group Stage,138,62
+Ivory Coast,Mozambique,1,0,2025-12-24,CAF,AFCON 2025,Group Stage,33,78
+Cameroon,Gabon,1,0,2025-12-24,CAF,AFCON 2025,Group Stage,69,87
+Gabon,Mozambique,2,3,2025-12-28,CAF,AFCON 2025,Group Stage,87,78
+Ivory Coast,Cameroon,1,1,2025-12-28,CAF,AFCON 2025,Group Stage,33,69
+Gabon,Ivory Coast,2,3,2025-12-31,CAF,AFCON 2025,Group Stage,87,33
+Mozambique,Cameroon,1,2,2025-12-31,CAF,AFCON 2025,Group Stage,78,69
+Mali,Tunisia,1,1,2026-01-03,CAF,AFCON 2025,Round of 16,52,45
+Senegal,Sudan,3,1,2026-01-03,CAF,AFCON 2025,Round of 16,15,138
+Egypt,Benin,3,1,2026-01-05,CAF,AFCON 2025,Round of 16,31,103
+Ivory Coast,Burkina Faso,3,0,2026-01-06,CAF,AFCON 2025,Round of 16,33,62
+Algeria,DR Congo,1,0,2026-01-06,CAF,AFCON 2025,Round of 16,29,46
+Nigeria,Mozambique,4,0,2026-01-05,CAF,AFCON 2025,Round of 16,46,78
+South Africa,Cameroon,1,2,2026-01-04,CAF,AFCON 2025,Round of 16,60,69
+Morocco,Tanzania,1,0,2026-01-04,CAF,AFCON 2025,Round of 16,7,76
+Senegal,Mali,1,0,2026-01-09,CAF,AFCON 2025,Quarter-final,15,52
+Egypt,Ivory Coast,3,2,2026-01-10,CAF,AFCON 2025,Quarter-final,31,33
+Nigeria,Algeria,2,0,2026-01-10,CAF,AFCON 2025,Quarter-final,46,29
+Morocco,South Africa,0,0,2026-01-09,CAF,AFCON 2025,Quarter-final,7,60
+Senegal,Egypt,1,0,2026-01-14,CAF,AFCON 2025,Semi-final,15,31
+Morocco,Nigeria,0,0,2026-01-14,CAF,AFCON 2025,Semi-final,7,46
+Egypt,Nigeria,0,0,2026-01-17,CAF,AFCON 2025,Third place,31,46
+Morocco,Senegal,3,0,2026-01-18,CAF,AFCON 2025,Final,7,15

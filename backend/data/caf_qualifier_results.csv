@@ -1,0 +1,175 @@
+home_team,away_team,home_score,away_score,match_date,confederation,tournament,tournament_stage,home_team_fifa_ranking,away_team_fifa_ranking
+Egypt,Burkina Faso,2,1,2024-09-05,CAF,World Cup Qualifier,Qualifier,31,62
+Egypt,Sierra Leone,1,0,2024-09-08,CAF,World Cup Qualifier,Qualifier,31,118
+Egypt,Guinea-Bissau,1,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,31,115
+Egypt,Ethiopia,2,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,31,90
+Egypt,Djibouti,6,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,31,200
+Burkina Faso,Egypt,0,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,62,31
+Sierra Leone,Egypt,0,2,2024-09-05,CAF,World Cup Qualifier,Qualifier,118,31
+Guinea-Bissau,Egypt,1,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,115,31
+Ethiopia,Egypt,0,2,2024-10-14,CAF,World Cup Qualifier,Qualifier,90,31
+Djibouti,Egypt,0,3,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,31
+Burkina Faso,Sierra Leone,2,2,2024-09-05,CAF,World Cup Qualifier,Qualifier,62,118
+Burkina Faso,Guinea-Bissau,1,1,2024-10-11,CAF,World Cup Qualifier,Qualifier,62,115
+Burkina Faso,Ethiopia,3,1,2024-10-14,CAF,World Cup Qualifier,Qualifier,62,90
+Burkina Faso,Djibouti,4,1,2025-03-21,CAF,World Cup Qualifier,Qualifier,62,200
+Sierra Leone,Burkina Faso,0,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,118,62
+Guinea-Bissau,Burkina Faso,1,2,2024-09-05,CAF,World Cup Qualifier,Qualifier,115,62
+Ethiopia,Burkina Faso,0,3,2024-09-08,CAF,World Cup Qualifier,Qualifier,90,62
+Djibouti,Burkina Faso,0,6,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,62
+Sierra Leone,Guinea-Bissau,3,1,2024-10-11,CAF,World Cup Qualifier,Qualifier,118,115
+Sierra Leone,Ethiopia,2,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,118,90
+Sierra Leone,Djibouti,2,1,2025-03-21,CAF,World Cup Qualifier,Qualifier,118,200
+Guinea-Bissau,Sierra Leone,1,2,2024-09-08,CAF,World Cup Qualifier,Qualifier,115,118
+Ethiopia,Sierra Leone,0,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,90,118
+Djibouti,Sierra Leone,1,2,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,118
+Guinea-Bissau,Ethiopia,1,1,2024-10-14,CAF,World Cup Qualifier,Qualifier,115,90
+Guinea-Bissau,Djibouti,2,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,115,200
+Ethiopia,Guinea-Bissau,1,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,90,115
+Djibouti,Guinea-Bissau,0,2,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,115
+Ethiopia,Djibouti,6,1,2025-03-21,CAF,World Cup Qualifier,Qualifier,90,200
+Djibouti,Ethiopia,1,1,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,90
+Senegal,DR Congo,1,1,2024-09-05,CAF,World Cup Qualifier,Qualifier,15,46
+Senegal,Sudan,2,0,2024-09-08,CAF,World Cup Qualifier,Qualifier,15,138
+Senegal,Togo,2,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,15,119
+Senegal,Mauritania,4,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,15,106
+Senegal,South Sudan,4,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,15,200
+DR Congo,Senegal,2,3,2024-09-08,CAF,World Cup Qualifier,Qualifier,46,15
+Sudan,Senegal,0,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,138,15
+Togo,Senegal,0,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,119,15
+Mauritania,Senegal,0,1,2024-10-11,CAF,World Cup Qualifier,Qualifier,106,15
+South Sudan,Senegal,0,5,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,15
+DR Congo,Sudan,1,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,46,138
+DR Congo,Togo,1,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,46,119
+DR Congo,Mauritania,2,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,46,106
+DR Congo,South Sudan,1,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,46,200
+Sudan,DR Congo,1,0,2024-09-08,CAF,World Cup Qualifier,Qualifier,138,46
+Togo,DR Congo,0,1,2024-10-14,CAF,World Cup Qualifier,Qualifier,119,46
+Mauritania,DR Congo,0,2,2024-10-11,CAF,World Cup Qualifier,Qualifier,106,46
+South Sudan,DR Congo,1,4,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,46
+South Africa,Nigeria,1,1,2024-09-05,CAF,World Cup Qualifier,Qualifier,60,46
+South Africa,Benin,2,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,60,103
+South Africa,Lesotho,3,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,60,150
+South Africa,Rwanda,3,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,60,105
+South Africa,Zimbabwe,3,1,2025-03-21,CAF,World Cup Qualifier,Qualifier,60,107
+Nigeria,South Africa,1,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,46,60
+Benin,South Africa,0,2,2024-09-05,CAF,World Cup Qualifier,Qualifier,103,60
+Lesotho,South Africa,0,3,2024-10-14,CAF,World Cup Qualifier,Qualifier,150,60
+Rwanda,South Africa,0,2,2024-10-11,CAF,World Cup Qualifier,Qualifier,105,60
+Zimbabwe,South Africa,0,1,2025-03-24,CAF,World Cup Qualifier,Qualifier,107,60
+Nigeria,Benin,4,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,46,103
+Nigeria,Lesotho,1,1,2024-10-11,CAF,World Cup Qualifier,Qualifier,46,150
+Nigeria,Rwanda,1,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,46,105
+Nigeria,Zimbabwe,1,1,2025-03-21,CAF,World Cup Qualifier,Qualifier,46,107
+Benin,Nigeria,2,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,103,46
+Lesotho,Nigeria,1,2,2024-09-08,CAF,World Cup Qualifier,Qualifier,150,46
+Rwanda,Nigeria,0,2,2024-09-05,CAF,World Cup Qualifier,Qualifier,105,46
+Zimbabwe,Nigeria,1,1,2025-03-24,CAF,World Cup Qualifier,Qualifier,107,46
+Cape Verde,Cameroon,1,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,67,69
+Cape Verde,Libya,1,0,2024-09-08,CAF,World Cup Qualifier,Qualifier,67,79
+Cape Verde,Angola,0,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,67,104
+Cape Verde,Mauritius,1,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,67,200
+Cape Verde,Eswatini,3,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,67,200
+Cameroon,Cape Verde,4,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,69,67
+Libya,Cape Verde,3,3,2024-09-05,CAF,World Cup Qualifier,Qualifier,79,67
+Angola,Cape Verde,1,2,2024-10-14,CAF,World Cup Qualifier,Qualifier,104,67
+Mauritius,Cape Verde,0,2,2024-10-11,CAF,World Cup Qualifier,Qualifier,200,67
+Eswatini,Cape Verde,0,2,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,67
+Cameroon,Libya,3,1,2024-09-05,CAF,World Cup Qualifier,Qualifier,69,79
+Cameroon,Angola,0,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,69,104
+Cameroon,Mauritius,3,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,69,200
+Cameroon,Eswatini,3,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,69,200
+Libya,Cameroon,1,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,79,69
+Angola,Cameroon,1,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,104,69
+Mauritius,Cameroon,0,2,2024-09-05,CAF,World Cup Qualifier,Qualifier,200,69
+Eswatini,Cameroon,0,3,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,69
+Morocco,Niger,5,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,7,140
+Morocco,Tanzania,2,0,2024-09-08,CAF,World Cup Qualifier,Qualifier,7,76
+Morocco,Zambia,2,1,2024-10-11,CAF,World Cup Qualifier,Qualifier,7,74
+Morocco,Congo,1,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,7,73
+Niger,Morocco,1,2,2024-09-08,CAF,World Cup Qualifier,Qualifier,140,7
+Tanzania,Morocco,0,2,2024-09-05,CAF,World Cup Qualifier,Qualifier,76,7
+Zambia,Morocco,0,2,2024-10-14,CAF,World Cup Qualifier,Qualifier,74,7
+Congo,Morocco,0,6,2024-10-11,CAF,World Cup Qualifier,Qualifier,73,7
+Niger,Tanzania,0,1,2024-09-05,CAF,World Cup Qualifier,Qualifier,140,76
+Niger,Zambia,2,1,2024-10-11,CAF,World Cup Qualifier,Qualifier,140,74
+Tanzania,Niger,0,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,76,140
+Zambia,Niger,0,1,2024-10-14,CAF,World Cup Qualifier,Qualifier,74,140
+Ivory Coast,Gabon,1,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,33,87
+Ivory Coast,Gambia,1,0,2024-09-08,CAF,World Cup Qualifier,Qualifier,33,116
+Ivory Coast,Kenya,3,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,33,89
+Ivory Coast,Burundi,1,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,33,116
+Ivory Coast,Seychelles,9,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,33,200
+Gabon,Ivory Coast,0,0,2024-09-08,CAF,World Cup Qualifier,Qualifier,87,33
+Gambia,Ivory Coast,0,2,2024-09-05,CAF,World Cup Qualifier,Qualifier,116,33
+Kenya,Ivory Coast,0,1,2024-10-14,CAF,World Cup Qualifier,Qualifier,89,33
+Burundi,Ivory Coast,0,1,2024-10-11,CAF,World Cup Qualifier,Qualifier,116,33
+Seychelles,Ivory Coast,0,7,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,33
+Gabon,Gambia,3,2,2024-09-05,CAF,World Cup Qualifier,Qualifier,87,116
+Gabon,Kenya,2,1,2024-10-11,CAF,World Cup Qualifier,Qualifier,87,89
+Gabon,Burundi,2,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,87,116
+Gabon,Seychelles,3,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,87,200
+Gambia,Gabon,3,4,2024-09-08,CAF,World Cup Qualifier,Qualifier,116,87
+Kenya,Gabon,1,2,2024-10-14,CAF,World Cup Qualifier,Qualifier,89,87
+Burundi,Gabon,1,2,2024-10-11,CAF,World Cup Qualifier,Qualifier,116,87
+Seychelles,Gabon,0,3,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,87
+Algeria,Uganda,2,1,2024-09-05,CAF,World Cup Qualifier,Qualifier,29,75
+Algeria,Mozambique,5,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,29,78
+Algeria,Guinea,1,2,2024-10-11,CAF,World Cup Qualifier,Qualifier,29,77
+Algeria,Botswana,3,1,2024-10-14,CAF,World Cup Qualifier,Qualifier,29,150
+Algeria,Somalia,3,1,2025-03-21,CAF,World Cup Qualifier,Qualifier,29,200
+Uganda,Algeria,1,2,2024-09-08,CAF,World Cup Qualifier,Qualifier,75,29
+Mozambique,Algeria,0,2,2024-09-05,CAF,World Cup Qualifier,Qualifier,78,29
+Guinea,Algeria,0,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,77,29
+Botswana,Algeria,1,3,2024-10-11,CAF,World Cup Qualifier,Qualifier,150,29
+Somalia,Algeria,0,3,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,29
+Uganda,Mozambique,4,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,75,78
+Uganda,Guinea,2,1,2024-10-11,CAF,World Cup Qualifier,Qualifier,75,77
+Uganda,Botswana,1,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,75,150
+Uganda,Somalia,2,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,75,200
+Mozambique,Uganda,3,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,78,75
+Guinea,Uganda,2,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,77,75
+Botswana,Uganda,0,1,2024-09-05,CAF,World Cup Qualifier,Qualifier,150,75
+Somalia,Uganda,0,2,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,75
+Tunisia,Namibia,3,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,45,88
+Tunisia,Liberia,3,0,2024-09-08,CAF,World Cup Qualifier,Qualifier,45,115
+Tunisia,Malawi,2,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,45,120
+Tunisia,Equatorial Guinea,1,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,45,108
+Tunisia,Sao Tome and Principe,4,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,45,200
+Namibia,Tunisia,0,0,2024-09-08,CAF,World Cup Qualifier,Qualifier,88,45
+Liberia,Tunisia,0,1,2024-09-05,CAF,World Cup Qualifier,Qualifier,115,45
+Malawi,Tunisia,0,1,2024-10-14,CAF,World Cup Qualifier,Qualifier,120,45
+Equatorial Guinea,Tunisia,0,1,2024-10-11,CAF,World Cup Qualifier,Qualifier,108,45
+Sao Tome and Principe,Tunisia,0,6,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,45
+Namibia,Liberia,1,1,2024-09-05,CAF,World Cup Qualifier,Qualifier,88,115
+Namibia,Malawi,1,2,2024-10-11,CAF,World Cup Qualifier,Qualifier,88,120
+Namibia,Equatorial Guinea,0,3,2024-10-14,CAF,World Cup Qualifier,Qualifier,88,108
+Namibia,Sao Tome and Principe,3,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,88,200
+Liberia,Namibia,3,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,115,88
+Malawi,Namibia,0,1,2024-10-14,CAF,World Cup Qualifier,Qualifier,120,88
+Equatorial Guinea,Namibia,0,3,2024-09-05,CAF,World Cup Qualifier,Qualifier,108,88
+Sao Tome and Principe,Namibia,0,6,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,88
+Ghana,Madagascar,1,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,73,109
+Ghana,Mali,1,0,2024-09-08,CAF,World Cup Qualifier,Qualifier,73,52
+Ghana,Comoros,1,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,73,110
+Ghana,Central African Republic,4,3,2024-10-14,CAF,World Cup Qualifier,Qualifier,73,150
+Ghana,Chad,5,0,2025-03-21,CAF,World Cup Qualifier,Qualifier,73,200
+Madagascar,Ghana,0,3,2024-09-08,CAF,World Cup Qualifier,Qualifier,109,73
+Mali,Ghana,1,2,2024-09-05,CAF,World Cup Qualifier,Qualifier,52,73
+Comoros,Ghana,1,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,110,73
+Central African Republic,Ghana,0,5,2024-10-11,CAF,World Cup Qualifier,Qualifier,150,73
+Chad,Ghana,1,1,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,73
+Madagascar,Mali,0,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,109,52
+Madagascar,Comoros,2,1,2024-10-11,CAF,World Cup Qualifier,Qualifier,109,110
+Madagascar,Central African Republic,2,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,109,150
+Madagascar,Chad,3,1,2025-03-21,CAF,World Cup Qualifier,Qualifier,109,200
+Mali,Madagascar,4,1,2024-09-08,CAF,World Cup Qualifier,Qualifier,52,109
+Comoros,Madagascar,1,2,2024-10-14,CAF,World Cup Qualifier,Qualifier,110,109
+Central African Republic,Madagascar,1,4,2024-10-11,CAF,World Cup Qualifier,Qualifier,150,109
+Chad,Madagascar,0,3,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,109
+Mali,Comoros,3,0,2024-09-05,CAF,World Cup Qualifier,Qualifier,52,110
+Mali,Central African Republic,1,0,2024-10-11,CAF,World Cup Qualifier,Qualifier,52,150
+Mali,Chad,3,1,2025-03-21,CAF,World Cup Qualifier,Qualifier,52,200
+Comoros,Mali,0,3,2024-09-08,CAF,World Cup Qualifier,Qualifier,110,52
+Central African Republic,Mali,0,0,2024-10-14,CAF,World Cup Qualifier,Qualifier,150,52
+Chad,Mali,0,2,2025-03-24,CAF,World Cup Qualifier,Qualifier,200,52
