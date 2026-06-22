@@ -12,10 +12,15 @@ app = FastAPI(title="WC2026 Simulator API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://wc2026-simulator-ten.vercel.app",
+        "*"
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 def get_supabase():
     return create_client(
