@@ -15,11 +15,11 @@ def poisson_probability(lam, k):
     # P(X=k) = (λ^k × e^-λ) / k!
     return (lam ** k * math.exp(-lam)) / math.factorial(k)
 
-def simulate_match(team_a_ratings, team_b_ratings, max_goals=8):
-    # Get global average from database
-    supabase = get_supabase()
-    config = supabase.table("config").select("value").eq("key", "global_avg_goals").execute()
-    avg_goals = config.data[0]["value"] if config.data else 1.5
+def simulate_match(team_a_ratings, team_b_ratings, avg_goals=None, max_goals=8):
+    if avg_goals is None:
+        supabase = get_supabase()
+        config = supabase.table("config").select("value").eq("key", "global_avg_goals").execute()
+        avg_goals = config.data[0]["value"] if config.data else 1.5
 
     attack_a = team_a_ratings["attack_strength"]
     defense_a = team_a_ratings["defense_weakness"]
