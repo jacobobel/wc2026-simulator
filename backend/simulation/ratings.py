@@ -38,9 +38,9 @@ def get_tournament_weight(tournament, stage):
         stage_mult = 1.0
 
     if "world cup 2026" in tournament:
-        tournament_mult = 2.0  # Highest — live tournament
+        tournament_mult = 2.0
     elif "world cup" in tournament and "qualifier" not in tournament:
-        tournament_mult = 1.8  # WC 2022
+        tournament_mult = 1.8
     elif any(t in tournament for t in ["copa america", "euros", "euro 2024", "afcon"]):
         tournament_mult = 1.6
     elif "qualifier" in tournament:
@@ -69,7 +69,6 @@ def get_margin_weight(goal_diff):
 def calculate_ratings():
     supabase = get_supabase()
 
-    # Load all qualifier and tournament matches
     result = supabase.table("competitive_matches")\
         .select("*")\
         .order("match_date")\
@@ -77,7 +76,6 @@ def calculate_ratings():
     matches = result.data
     print(f"Loaded {len(matches)} competitive matches")
 
-    # Load live WC 2026 group stage matches
     wc_result = supabase.table("matches")\
         .select("*, home:home_team_id(name), away:away_team_id(name)")\
         .eq("status", "FINISHED")\
@@ -86,7 +84,6 @@ def calculate_ratings():
     wc_matches = wc_result.data
     print(f"Loaded {len(wc_matches)} completed WC 2026 matches")
 
-    # Convert WC matches to same format
     for m in wc_matches:
         if m.get("home") and m.get("away"):
             matches.append({
@@ -101,32 +98,27 @@ def calculate_ratings():
                 "away_team_fifa_ranking": None
             })
 
-    # Re-sort all matches chronologically
     matches.sort(key=lambda x: x.get("match_date", ""))
     print(f"Total matches for Elo calculation: {len(matches)}")
 
-    # Load all 48 WC teams
     teams_result = supabase.table("teams").select("*").execute()
     teams = teams_result.data
 
-    # Initialize Elo ratings from FIFA rankings
     elo_ratings = {}
     team_ids = {}
     team_data = {}
 
-    # Host nations get virtual matches based on FIFA ranking
     HOST_NATIONS = {"United States": 17, "Mexico": 14, "Canada": 30}
-    VIRTUAL_MATCH_BOOST = 5  # virtual matches anchoring to FIFA ranking
 
     for team in teams:
         name = team["name"]
         fifa_rank = team.get("fifa_ranking")
         starting_elo = fifa_ranking_to_elo(fifa_rank)
-        
+
         if name in HOST_NATIONS:
             virtual_elo = fifa_ranking_to_elo(HOST_NATIONS[name])
             starting_elo = (starting_elo * 3 + virtual_elo * 2) / 5
-        
+
         elo_ratings[name] = starting_elo
         team_ids[name] = team["id"]
         team_data[name] = {
@@ -202,19 +194,16 @@ def calculate_ratings():
             team_data[away]["total_weight"] += w
             team_data[away]["matches_played"] += 1
 
-    # Global averages
     global_scored = sum(d["goals_scored_weighted"] for d in team_data.values())
     global_weight = sum(d["total_weight"] for d in team_data.values())
     global_avg = global_scored / global_weight if global_weight > 0 else 1.5
 
-    # Save global average to config table
     supabase.table("config").upsert(
         {"key": "global_avg_goals", "value": global_avg},
         on_conflict="key"
     ).execute()
     print(f"Global average goals saved: {global_avg:.4f}")
 
-    # Normalize Elo to composite scale
     min_elo = min(elo_ratings.values())
     max_elo = max(elo_ratings.values())
     elo_range = max_elo - min_elo
@@ -224,16 +213,15 @@ def calculate_ratings():
         elo = elo_ratings[name]
         data = team_data[name]
 
-        composite = 0.5 + (elo - min_elo) / elo_range * 1.5 if elo_range > 0 else 1.0
+        compressed_elo = 1500 + (elo - 1500) * 0.4
+        composite = 0.5 + (compressed_elo - min_elo) / (max_elo - min_elo) * 1.5 if elo_range > 0 else 1.0
 
-        # Derive attack and defense from Elo
-        elo_normalized = (elo - 1400) / 600
+        elo_normalized = (compressed_elo - 1400) / 600
         elo_normalized = max(0.1, min(elo_normalized, 1.2))
 
         attack_strength = 0.6 + elo_normalized * 1.0
         defense_weakness = 1.4 - elo_normalized * 0.9
 
-        # Blend with actual goal data if we have enough matches
         if data["total_weight"] > 0:
             avg_scored = data["goals_scored_weighted"] / data["total_weight"]
             avg_conceded = data["goals_conceded_weighted"] / data["total_weight"]
@@ -241,7 +229,10 @@ def calculate_ratings():
             raw_defense = avg_conceded / global_avg
 
             matches_played = data["matches_played"]
-            data_trust = min(matches_played / 50, 0.6)
+            data_trust = min(matches_played / 50, 0.3)
+
+            raw_attack = max(0.7, min(raw_attack, 2.0))
+            raw_defense = max(0.5, min(raw_defense, 1.8))
 
             attack_strength = (data_trust * raw_attack) + ((1 - data_trust) * attack_strength)
             defense_weakness = (data_trust * raw_defense) + ((1 - data_trust) * defense_weakness)
@@ -251,6 +242,17 @@ def calculate_ratings():
         else:
             avg_scored = attack_strength * global_avg
             avg_conceded = defense_weakness * global_avg
+
+        # Apply squad modifier if exists
+        modifier_result = supabase.table("squad_modifiers")\
+            .select("*")\
+            .eq("team_name", name)\
+            .execute()
+
+        if modifier_result.data:
+            mod = modifier_result.data[0]
+            attack_strength *= mod["attack_boost"]
+            defense_weakness /= mod["defense_boost"]  # divide because lower is better
 
         form_score = attack_strength / (defense_weakness + 0.1)
 
@@ -267,7 +269,6 @@ def calculate_ratings():
 
         ratings.append((name, rating_data, elo))
 
-    # Save to database
     for name, rating_data, elo in ratings:
         supabase.table("team_ratings").upsert(
             rating_data,
