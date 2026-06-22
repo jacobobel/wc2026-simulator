@@ -207,6 +207,13 @@ def calculate_ratings():
     global_weight = sum(d["total_weight"] for d in team_data.values())
     global_avg = global_scored / global_weight if global_weight > 0 else 1.5
 
+    # Save global average to config table
+    supabase.table("config").upsert(
+        {"key": "global_avg_goals", "value": global_avg},
+        on_conflict="key"
+    ).execute()
+    print(f"Global average goals saved: {global_avg:.4f}")
+
     # Normalize Elo to composite scale
     min_elo = min(elo_ratings.values())
     max_elo = max(elo_ratings.values())
@@ -219,16 +226,31 @@ def calculate_ratings():
 
         composite = 0.5 + (elo - min_elo) / elo_range * 1.5 if elo_range > 0 else 1.0
 
+        # Derive attack and defense from Elo
+        elo_normalized = (elo - 1400) / 600
+        elo_normalized = max(0.1, min(elo_normalized, 1.2))
+
+        attack_strength = 0.6 + elo_normalized * 1.0
+        defense_weakness = 1.4 - elo_normalized * 0.9
+
+        # Blend with actual goal data if we have enough matches
         if data["total_weight"] > 0:
             avg_scored = data["goals_scored_weighted"] / data["total_weight"]
             avg_conceded = data["goals_conceded_weighted"] / data["total_weight"]
-            attack_strength = avg_scored / global_avg
-            defense_weakness = avg_conceded / global_avg
+            raw_attack = avg_scored / global_avg
+            raw_defense = avg_conceded / global_avg
+
+            matches_played = data["matches_played"]
+            data_trust = min(matches_played / 50, 0.6)
+
+            attack_strength = (data_trust * raw_attack) + ((1 - data_trust) * attack_strength)
+            defense_weakness = (data_trust * raw_defense) + ((1 - data_trust) * defense_weakness)
+
+            avg_scored = attack_strength * global_avg
+            avg_conceded = defense_weakness * global_avg
         else:
-            attack_strength = composite
-            defense_weakness = 2.0 - composite
-            avg_scored = global_avg * composite
-            avg_conceded = global_avg * (2.0 - composite)
+            avg_scored = attack_strength * global_avg
+            avg_conceded = defense_weakness * global_avg
 
         form_score = attack_strength / (defense_weakness + 0.1)
 
