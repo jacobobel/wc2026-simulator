@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'https://wc2026-simulator.onrender.com'
+const BASE_URL = 'https://wc2026-simulator-uiiv.onrender.com'
 
 export const getOdds = () => axios.get(`${BASE_URL}/odds`)
 export const getTeams = () => axios.get(`${BASE_URL}/teams`)
